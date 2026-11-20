@@ -1,4 +1,4 @@
-export const GITHUB_USERNAME = 'imanki-t';
+export const GITHUB_USERNAME = 'ixmuted';
 
 // @ts-ignore
 const TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
