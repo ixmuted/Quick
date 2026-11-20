@@ -209,14 +209,14 @@ export function Projects() {
         </div>
 
         {/* Right side: language filters + sort */}
-        <div className="flex items-center gap-2 overflow-x-auto pb-1 sm:pb-0 scrollbar-hide">
+        <div className="flex items-center gap-2 min-w-0">
           {/* Funnel icon — properly aligned */}
           <div className="flex items-center gap-1.5 shrink-0">
             <SlidersHorizontal className="h-3.5 w-3.5 text-accents-4 shrink-0" />
           </div>
 
           {/* Language pills */}
-          <div className="flex items-center gap-1.5 overflow-x-auto scrollbar-hide">
+          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-hide min-w-0 flex-1">
             {languages.map((lang) => (
               <button
                 key={lang}
