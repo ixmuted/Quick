@@ -26,7 +26,7 @@ const DiscordIcon = ({ className }: { className?: string }) => (
 
 const SOCIAL_LINKS = [
   {
-    name: 'GitHub', id: 'imanki-t', url: 'https://github.com/imanki-t',
+    name: 'GitHub', id: 'ixmuted', url: 'https://github.com/ixmuted',
     icon: <Github className="h-5 w-5" />, description: 'Check out my open source work.',
   },
   {
