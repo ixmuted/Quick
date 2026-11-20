@@ -39,7 +39,7 @@ export function Header({ onCommandOpen }: HeaderProps) {
             className="group flex items-center gap-2 text-sm font-bold tracking-tight transition-opacity hover:opacity-75"
           >
             <Logo className="h-5 w-5" />
-            <span>imanki-t</span>
+            <span>ixmuted</span>
           </Link>
 
           <div className="hidden md:flex items-center">
