@@ -49,9 +49,9 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
     {
       id: 'github',
       label: 'Open GitHub Profile',
-      description: '@imanki-t on GitHub',
+      description: '@ixmuted on GitHub',
       icon: <Github className="h-4 w-4" />,
-      action: () => { window.open('https://github.com/imanki-t', '_blank'); onClose(); },
+      action: () => { window.open('https://github.com/ixmuted', '_blank'); onClose(); },
     },
   ];
 
