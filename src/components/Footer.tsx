@@ -66,7 +66,7 @@ export function Footer() {
     {
       title: 'Connect',
       links: [
-        { label: 'GitHub', href: 'https://github.com/imanki-t', internal: false },
+        { label: 'GitHub', href: 'https://github.com/ixmuted', internal: false },
         { label: 'Reddit', href: 'https://reddit.com/user/imunmuted', internal: false },
         { label: 'Email', href: 'mailto:imitsankit@gmail.com', internal: false },
       ],
@@ -75,7 +75,7 @@ export function Footer() {
       title: 'Open Source',
       links: [
         { label: 'All Projects', to: '/projects', internal: true },
-        { label: 'GitHub Profile', href: 'https://github.com/imanki-t', internal: false },
+        { label: 'GitHub Profile', href: 'https://github.com/ixmuted', internal: false },
       ],
     },
   ];
@@ -89,14 +89,14 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1 flex flex-col gap-4">
             <div className="flex items-center gap-2">
               <Logo className="h-5 w-5" />
-              <span className="text-sm font-bold tracking-tight">imanki-t</span>
+              <span className="text-sm font-bold tracking-tight">ixmuted</span>
             </div>
             <p className="text-xs text-accents-5 leading-relaxed max-w-[180px]">
               Vibe coder building open-source tools and digital experiences on the web.
             </p>
             <div className="flex items-center gap-2 mt-1">
               <a
-                href="https://github.com/imanki-t"
+                href="https://github.com/ixmuted"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-8 w-8 items-center justify-center rounded-lg border border-accents-2 text-accents-5 hover:text-foreground hover:border-accents-5 transition-all"
